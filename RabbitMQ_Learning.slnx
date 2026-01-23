@@ -1,0 +1,6 @@
+<Solution>
+  <Folder Name="/Example/">
+    <Project Path="RabbitMQ.Example.Consumer/RabbitMQ.Example.Consumer.csproj" />
+    <Project Path="RabbitMQ.Example.Publisher/RabbitMQ.Example.Publisher.csproj" />
+  </Folder>
+</Solution>
