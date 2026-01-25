@@ -10,12 +10,16 @@ using IConnection connection = await factory.CreateConnectionAsync();
 using IChannel channel = await connection.CreateChannelAsync();
 
 // Declare Queue
-await channel.QueueDeclareAsync(queue: "example-queue", exclusive:false);
+await channel.QueueDeclareAsync(queue: "example-queue", exclusive:false, durable: true);
+await channel.BasicQosAsync(prefetchSize: 0, prefetchCount: 1, global: false);
 
 // Publish Messages
 // RabbitMQ message body is byte array
 
 byte[] message = Encoding.UTF8.GetBytes("Hello from RabbitMQ Example Publisher!");
-await channel.BasicPublishAsync(exchange: "", routingKey: "example-queue", body: message);
+await channel.BasicPublishAsync(exchange: "", routingKey: "example-queue", body: message, mandatory:false, basicProperties: new BasicProperties
+{
+    Persistent = true
+});
 
 Console.Read();

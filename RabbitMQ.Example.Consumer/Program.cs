@@ -16,7 +16,9 @@ await channel.QueueDeclareAsync(queue: "example-queue", exclusive:false);
 
 // Read Messages
 AsyncEventingBasicConsumer consumer = new(channel);
-string message = await channel.BasicConsumeAsync(queue: "example-queue", false, consumer);
+string message = await channel.BasicConsumeAsync(queue: "example-queue", autoAck: false, consumer);
+await channel.BasicQosAsync(prefetchSize: 0, prefetchCount: 1, global: false);
+
 consumer.ReceivedAsync += async (sender, ea) =>
 {
     byte[] body = ea.Body.ToArray();
