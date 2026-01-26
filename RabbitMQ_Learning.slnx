@@ -1,6 +1,10 @@
 <Solution>
+  <Folder Name="/DirectExchange/" />
   <Folder Name="/Example/">
     <Project Path="RabbitMQ.Example.Consumer/RabbitMQ.Example.Consumer.csproj" />
     <Project Path="RabbitMQ.Example.Publisher/RabbitMQ.Example.Publisher.csproj" />
+  </Folder>
+  <Folder Name="/Shared/">
+    <Project Path="RabbitMQ.Shared/RabbitMQ.Shared.csproj" Id="2bd551f4-a469-4d21-afb1-b3228c63b4fe" />
   </Folder>
 </Solution>
