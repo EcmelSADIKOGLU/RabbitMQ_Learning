@@ -15,7 +15,7 @@
     <Project Path="RabbitMQ.Shared/RabbitMQ.Shared.csproj" Id="2bd551f4-a469-4d21-afb1-b3228c63b4fe" />
   </Folder>
   <Folder Name="/TopicExchange/">
-    <File Path="notes.txt" />
+    <File Path="TopicExchange.Notes.txt" />
     <Project Path="RabbitMQ.Topic.Consumer/RabbitMQ.Topic.Consumer.csproj" Id="edc0d4e4-a5e1-48de-8813-ba1289fb3779" />
     <Project Path="RabbitMQ.Topic.Publisher/RabbitMQ.Topic.Publisher.csproj" Id="57ba7379-2c6d-4380-8a04-d4ef2d3b6e01" />
   </Folder>
