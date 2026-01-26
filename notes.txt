@@ -1,0 +1,23 @@
+
+Topic exchange formant : one.two.three
+
+We can use # and * as wildcards.
+
+* for just one part of the topic.
+# for multiple parts of the topic.
+
+Note: This will only work consumer queue bindings. Not in publisher routing keys. 
+
+Examples: 
+
+one.# = start with one. Not important what comes after.
+
+#.three = ends with .three. Not important what comes before.
+
+one.*.three = starts with one. ends with .three. only one part in the middle.
+
+one.* = starts with one. only one part after.
+
+one.*.* = starts with one. at least two parts after.
+
+*.two.* = at least one part before and after two.
