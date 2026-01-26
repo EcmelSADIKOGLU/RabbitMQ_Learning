@@ -7,6 +7,10 @@
     <Project Path="RabbitMQ.Example.Consumer/RabbitMQ.Example.Consumer.csproj" />
     <Project Path="RabbitMQ.Example.Publisher/RabbitMQ.Example.Publisher.csproj" />
   </Folder>
+  <Folder Name="/FanoutExchange/">
+    <Project Path="RabbitMQ.Fanout.Consumer/RabbitMQ.Fanout.Consumer.csproj" Id="c80fa87c-a921-4c89-99e1-6f77a6819638" />
+    <Project Path="RabbitMQ.Fanout.Publisher/RabbitMQ.Fanout.Publisher.csproj" Id="4772312a-a07f-41d5-98e4-6567eabf2c1e" />
+  </Folder>
   <Folder Name="/Shared/">
     <Project Path="RabbitMQ.Shared/RabbitMQ.Shared.csproj" Id="2bd551f4-a469-4d21-afb1-b3228c63b4fe" />
   </Folder>
