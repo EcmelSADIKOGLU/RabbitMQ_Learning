@@ -15,6 +15,12 @@
     <Project Path="RabbitMQ.Header.Consumer/RabbitMQ.Header.Consumer.csproj" Id="e6a31a34-3d74-4379-9425-22b78bdc19d0" />
     <Project Path="RabbitMQ.Header.Publisher/RabbitMQ.Header.Publisher.csproj" Id="295511a1-de40-4def-b6cd-d315b7276b24" />
   </Folder>
+  <Folder Name="/Masstransit/">
+    <Project Path="RabbitMQ.Masstransit.Bus/RabbitMQ.Masstransit.Bus.csproj" Id="fcebc714-6c0d-4b88-9bee-070b98acd156" />
+    <Project Path="RabbitMQ.Masstransit.Consumer/RabbitMQ.Masstransit.Consumer.csproj" Id="b54178d3-acc9-4e9b-8adb-b24b0f9637ae" />
+    <Project Path="RabbitMQ.Masstransit.Publisher/RabbitMQ.Masstransit.Publisher.csproj" Id="8bf809c1-e40b-4d38-9232-19809bc830ee" />
+  </Folder>
+  <Folder Name="/Notes/" />
   <Folder Name="/Shared/">
     <Project Path="RabbitMQ.Shared/RabbitMQ.Shared.csproj" Id="2bd551f4-a469-4d21-afb1-b3228c63b4fe" />
   </Folder>
