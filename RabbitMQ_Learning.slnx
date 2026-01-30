@@ -11,6 +11,10 @@
     <Project Path="RabbitMQ.Fanout.Consumer/RabbitMQ.Fanout.Consumer.csproj" Id="c80fa87c-a921-4c89-99e1-6f77a6819638" />
     <Project Path="RabbitMQ.Fanout.Publisher/RabbitMQ.Fanout.Publisher.csproj" Id="4772312a-a07f-41d5-98e4-6567eabf2c1e" />
   </Folder>
+  <Folder Name="/HeaderExchange/">
+    <Project Path="RabbitMQ.Header.Consumer/RabbitMQ.Header.Consumer.csproj" Id="e6a31a34-3d74-4379-9425-22b78bdc19d0" />
+    <Project Path="RabbitMQ.Header.Publisher/RabbitMQ.Header.Publisher.csproj" Id="295511a1-de40-4def-b6cd-d315b7276b24" />
+  </Folder>
   <Folder Name="/Shared/">
     <Project Path="RabbitMQ.Shared/RabbitMQ.Shared.csproj" Id="2bd551f4-a469-4d21-afb1-b3228c63b4fe" />
   </Folder>
